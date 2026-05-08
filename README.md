@@ -94,6 +94,26 @@ ensemble.model2.eval()
 # Then proceed with the training loop — only ensemble.classifier trains
 ```
 
+### 4.5 Model Evaluation & Metrics
+The models were evaluated using rigorous data augmentations (Color Jitter, Random Rotation, Horizontal Flips) to ensure true generalization rather than memorization. 
+
+*(Note: The validation accuracies consistently outperformed training accuracies across early epochs, proving the success of the heavy training augmentations in preventing overfitting).*
+
+### EfficientNetB0 Performance
+![EfficientNetB0 Learning Curves](checkpoints/EfficientNetB0_learning_curves.png)
+
+![EfficientNetB0 Confusion Matrix](checkpoints/EfficientNetB0_confusion_matrix.jpg)
+
+### MobileNetV2 Performance
+![MobileNetV2 Learning Curves](checkpoints/MobileNetV2_learning_curves.png)
+
+![MobileNetV2 Confusion Matrix](checkpoints/MobileNetV2_confusion_matrix.jpg)
+
+### StackedEnsemble Perfomance
+![StackedEnsemble Learning Curves](checkpoints/StackedEnsemble_learning_curves.png)
+
+![StackedEnsemble Confusion Matrix ](checkpoints/StackedEnsemble_learning_curves.png)
+
 ---
 
 ## 5. Deployment
