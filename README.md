@@ -100,19 +100,19 @@ The models were evaluated using rigorous data augmentations (Color Jitter, Rando
 *(Note: The validation accuracies consistently outperformed training accuracies across early epochs, proving the success of the heavy training augmentations in preventing overfitting).*
 
 ### EfficientNetB0 Performance
-![EfficientNetB0 Learning Curves](checkpoints/EfficientNetB0_learning_curves.png)
+![EfficientNetB0 Learning Curves](checkpoints/EfficientNetB0/EfficientNetB0_learning_curves.png)
 
-![EfficientNetB0 Confusion Matrix](checkpoints/EfficientNetB0_confusion_matrix.png)
+![EfficientNetB0 Confusion Matrix](checkpoints/EfficientNetB0/EfficientNetB0_confusion_matrix.png)
 
 ### MobileNetV2 Performance
-![MobileNetV2 Learning Curves](checkpoints/MobileNetV2_learning_curves.png)
+![MobileNetV2 Learning Curves](checkpoints/MobileNetV2/MobileNetV2_learning_curves.png)
 
-![MobileNetV2 Confusion Matrix](checkpoints/MobileNetV2_confusion_matrix.png)
+![MobileNetV2 Confusion Matrix](checkpoints/MobileNetV2/MobileNetV2_confusion_matrix.png)
 
 ### StackedEnsemble Perfomance
-![StackedEnsemble Learning Curves](checkpoints/StackedEnsemble_learning_curves.png)
+![StackedEnsemble Learning Curves](checkpoints/StackedEnsemble/StackedEnsemble_learning_curves.png)
 
-![StackedEnsemble Confusion Matrix ](checkpoints/StackedEnsemble_learning_curves.png)
+![StackedEnsemble Confusion Matrix ](checkpoints/StackedEnsemble/StackedEnsemble_learning_curves.png)
 
 ---
 
