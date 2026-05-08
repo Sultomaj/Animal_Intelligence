@@ -144,7 +144,6 @@ Chronic weak classes (moth, donkey, ox, possum) may benefit from targeted data a
 ├── metrics.py                # Evaluation: curves, confusion matrices, reports
 ├── app.py                    # Streamlit inference application
 ├── checkpoints/              # Saved model weights (.pth)
-└── results/
     ├── MobileNetV2/
     ├── EfficientNetB0/
     └── StackedEnsemble/
