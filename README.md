@@ -1,6 +1,5 @@
 # Fine-Grained Animal Species Classification via Transfer Learning and Stacked Ensemble Architecture
 
-**Course Project · Deep Learning · 2025**
 
 ---
 
